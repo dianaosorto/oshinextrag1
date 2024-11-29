@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --color-azul: #2293D7;
+    --color-verde: #28d1a2;
+	}
+
+body{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	color: #808080;
+}
+header{
+	background-color: #000000;
+	padding: 5px 0;	
+}
+
+#hero{
+	background-image: url("../img/hero-services.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+	color: #fff;
+	background-blend-mode: multiply;
+	background-color: black;
+	background-color: rgba(0,0,0,0.64);
+	text-align: center;
+}
+
+#hero h1{
+	font-size: 70px;
+}
+
+#hero h2{
+	font-style: italic;
+	font-size: 20px;
+}
+
+#hero h3{
+	
+}
+
+#whatwedo{
+	padding: 200px;
+}
+
+.title{
+	text-align: center;
+	font-size: 45px;
+}
+.subtitle{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.titulo{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.interactive{
+	margin-top: 50px;
+}
+
+#services h3,
+.interactive h3{
+	font-size: 22px;
+	font-weight: 600;
+}
+#services i
+.interactive i{
+	color: var(--color-verde);
+}
+
+.col-text {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.specializations h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.specializations p {
+    color: gray;
+}
+
+
+.app-development {
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.app-development img {
+    width: 150%;
+    height: auto;
+}
+
+
+.ui-ux-design ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ui-ux-design li {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.services h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.services p {
+    color: gray;
+}
+
+.ui-ux-design {
+    width: 100%;
+    overflow: hidden; 
+    padding: 50px 20px;
+}
+
+.ui-ux-design .col-text {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ui-ux-design img {
+    width: 100%;
+    float: right;
+    margin-left: 5%;
+}
+
+.ui-ux-design h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.ui-ux-design ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ui-ux-design li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.services .row {
+    overflow: hidden;
+}
+
+.services .row article {
+    width: 22%;
+    float: left;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.services article h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.services article p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 200%;
+    height: auto;
+}
+
+h2, h3, h4 {
+    color: #222;
+}
+
